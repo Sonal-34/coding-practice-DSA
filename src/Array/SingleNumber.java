@@ -1,6 +1,7 @@
 package Array;
 
-public class SingleNumber {
+public class SingleNumber
+ {
     public static void main(String[] args) {
         int arr[]={4,1,2,1,2,3,4};
         int result=singleNumber(arr);

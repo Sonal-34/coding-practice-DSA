@@ -10,7 +10,7 @@ public class FindMissingRepeatedValues {
                  {2,4}
          };
          int result[]=findMissingRepeatedValues(arr);
-         System.out.println("The repeated value isg: " + result[0]);
+         System.out.println("The repeated value is: " + result[0]);
         System.out.println("The missing value is: " + result[1]);
     }
     public static int[] findMissingRepeatedValues(int[][] arr) {
