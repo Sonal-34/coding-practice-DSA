@@ -18,10 +18,11 @@ public class Merge_Intervals {
     public static int[][] merge(int[][] intervals) {
         //Edge cases
         if(intervals == null || intervals.length == 0) return new int[0][0];
-        if(intervals.length <= 1)
-            return intervals;
+        if(intervals.length <= 1) return intervals;
+
         Arrays.sort(intervals,(a,b) -> a[0] - b[0]);
         List<int[]> result =new ArrayList<>();
+        
         //Add first interval
         result.add(intervals[0]);
         //Traverse remaining intervals
