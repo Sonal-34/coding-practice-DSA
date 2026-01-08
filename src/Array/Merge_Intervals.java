@@ -2,7 +2,7 @@ package Array;
 import java.util.*;
 public class Merge_Intervals {
     public static void main(String[] args) {
-     int intervals[][] ={
+     int intervals[][] = {
              {1,3},
              {2,6},
              {8,10},
@@ -22,7 +22,7 @@ public class Merge_Intervals {
 
         Arrays.sort(intervals,(a,b) -> a[0] - b[0]);
         List<int[]> result =new ArrayList<>();
-        
+
         //Add first interval
         result.add(intervals[0]);
         //Traverse remaining intervals
