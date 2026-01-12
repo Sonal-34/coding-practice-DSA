@@ -24,7 +24,8 @@ public class ProductOfArayExceptSelf {
 
         //calculate suffix and update ans
         int suffix = nums[n-1];
-        for (int i = n - 2; i >= 0; i--) {
+        for (int i = n - 2; i >= 0; i--)
+        {
             ans[i] = ans[i] * suffix; // prefix * suffix
             suffix *= nums[i];
         }
