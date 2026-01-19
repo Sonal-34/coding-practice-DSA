@@ -1,6 +1,7 @@
 package String;
 
-public class StringCompression {
+public class StringCompression
+{
     public static void main(String[] args) {
         char[] chars = {'a','a','a','b','b','c','c','c','c'};
 
